@@ -1,0 +1,92 @@
+body{
+    font-family: "Roboto", serif;
+    background-color: #f8f9fa;
+    
+  }
+
+header{
+    background-color:#007bff ;
+    color: #fff;/*yazı rengi*/
+    padding:1rem 0 ;/*iç boşluk*/
+    text-align: center;/*yazıyı ortalamak için*/
+}
+ #slogan{
+    color: #fff;
+    text-decoration: none;/*linkin altındaki çizgiyi kaldırmak için*/
+    font-weight: 900px;/*yazı için*/
+    font-style: normal;
+
+}
+#slogan h1{
+    padding: 1.5rem 0;
+
+}
+header p{
+    font-size: 1.25em;
+}
+#main-nav{
+    background-color: #333;
+    padding: 1rem 0;
+
+}
+#main-nav ul{
+    display: flex;
+    justify-content: center;/*ortalamak için*/
+}
+#main-nav a{
+    background-color: #007bff ;/*arka plan mavi*/
+    display: block;/*yuykarı dogru kaydırabilsin diğye*/
+    padding: 0.5rem 1rem;/*iç boşluk*/
+    margin: 0 0.25rem;/*dış boşluk*/
+    color: #fff;/*yazı rengi*/
+    border-radius: 0.25rem;/*kenarları yuvarlak yapmak için*/
+    font-weight: 600;/*yazı geniişliği için*/
+    text-decoration: none;/*baglantı altındaki çizgi kalksın diye*/
+}
+main{
+    padding: 1rem  0;
+}
+main .card{
+    box-shadow:0px 0px 3px #343a40;/*GÖLGE VERMEK İÇİN*/
+    background-color: #fff;
+    border-radius: 0.5rem;
+    
+}
+main .card .detay{
+    padding: 1rem;
+}
+main .card img{
+    width: 100%;
+    border-top-left-radius:0.5rem ;
+    border-top-right-radius: 0.5rem;
+}
+main .card h2{
+    color: #007bff;
+    font-weight:  900;
+    padding: 0.25rem 0;
+
+}
+main .card p{
+ 
+    padding: 0.25rem 0;
+}
+main .card a{
+    background-color: #007bff ;/*arka plan mavi*/
+    display:inline;/*yuykarı dogru kaydırabilsin diğye*/
+    padding: 0.5rem 1rem;/*iç boşluk*/
+    margin:  0.25rem;/*dış boşluk*/
+    color: #fff;/*yazı rengi*/
+    border-radius: 0.25rem;/*kenarları yuvarlak yapmak için*/
+    font-weight: 600;/*yazı geniişliği için*/
+    text-decoration: none;/*baglantı altındaki çizgi kalksın diye*/
+}
+main .col-4{
+    padding: 1rem;
+}
+
+
+
+
+
+
+  
