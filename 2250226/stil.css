@@ -1,0 +1,22 @@
+body{
+    background-image: url(res/bg.jpg);
+    background-size: cover;
+    
+}
+header .renk li{
+    color: black;
+
+}
+.menu .nav-link{
+    color: #222;
+}#menu a:hover{
+    background-color: #f77ad7b9;
+    color: aliceblue;
+    transition: 0.5s;
+}
+.card-title{
+    background-color: #f173c7;
+    color: #fff;
+    width: max-content;
+ 
+}
